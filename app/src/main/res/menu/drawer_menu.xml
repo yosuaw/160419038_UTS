@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menuTop" >
+        <item
+            android:id="@+id/itemCart"
+            android:fontFamily="@font/open_sans"
+            android:icon="@drawable/ic_baseline_shopping_bag_24"
+            android:title="Keranjang" />
+        <item
+            android:id="@+id/itemPayment"
+            android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+            android:title="Pembayaran"
+            android:fontFamily="@font/open_sans" />
+        <item
+            android:id="@+id/itemHistory"
+            android:fontFamily="@font/open_sans"
+            android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+            android:title="Riwayat" />
+    </group>
+    <group android:id="@+id/menuBottom" >
+        <item
+            android:id="@+id/itemFAQ"
+            android:fontFamily="@font/open_sans"
+            android:icon="@drawable/ic_baseline_question_mark_24"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/itemProfile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profil"
+            android:fontFamily="@font/open_sans" />
+    </group>
+</menu>
